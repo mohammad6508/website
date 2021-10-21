@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner_and_header{
+    background: url(01.jpg) no-repeat ;
+    background-size: cover;
+    height:85vh;
+    
+    
+}
+header{
+    background-color: #0070ff7a;
+    overflow: hidden;
+    
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.logo{
+    float: left;
+    width: 250px;
+    margin-left: 80px;
+
+}
+.logo span{
+    margin-top: 8px;
+    display: inline-block;
+    font-size: 30px;
+    color: orange;
+    font-family: Algerian;
+}
+ul{
+    list-style: none;
+    width: 700px;;
+    margin-left: 60%;
+}
+ul li{
+    float: left;
+   
+
+
+}
+ul li a{
+    padding: 18px 20px;
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.winter_title{
+    float: left;
+    width: 35%;
+    padding: 40px;
+    margin-top: 120px;
+    margin-left: 100px;
+    
+}
+.winter_title h6{
+    font-size: 20px;
+    color:lime;
+    
+}
+.winter_title h1{
+    color: rgb(46, 236, 163);
+    font-size: 80px;
+}
+.winter_title p{
+    line-height: 1.2;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px 0;
+    padding-bottom: 20px;
+    text-shadow: 3px 3px 10px black;
+}
+.form_part{
+    width: 50%;
+    float: left;
+    padding: 50px;
+    padding-left: 160px;
+    
+    
+
+}
+.form_body{
+    background:#ffffffa1;
+    width: 400px;
+    padding: 20px;
+    
+    border-radius: 50px 0 50px 0;
+
+}
+input{
+    width: 100%;
+    padding:5px;
+    margin-top: 30px;
+    border:none;
+    border-bottom: 1px solid rgb(43, 184, 172);
+    
+    color:rgb(0, 0, 0);
+    background:transparent;
+    transition: 1s;
+}
+input:hover{
+  
+    border-bottom: 1px solid rgb(2, 228, 89);
+    transform: scale(1.07 , 1);
+    transition: 1s;
+}
+.btn{
+    background:rgb(43, 184, 172);
+    color:rgb(255, 255, 255);
+    width: 100%;
+    margin-right: 30px;
+    padding:10px 0;
+    border-radius: 5px;
+    border:2px solid transparent;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.btn:hover{
+    transform: none;
+    background-color: transparent;
+    border:2px solid rgb(43, 184, 172);
+}
+input::placeholder{
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+}
+.form_an{
+    color:rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.div_area{
+   
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 50px;
+}
+ .men{
+    border-right: 5px solid red;
+    padding:5px;
+    padding-right: 10px;
+    display: inline-block;
+    padding-left: 140px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #333;
+    color:white;
+    margin: 20px 0
+    
+}
+.mydiv{
+    width: 23.5%;
+    color:rgb(0, 0, 0);
+    float: left;
+    margin-right: 2%;
+
+    padding: 0 20px;
+    border-radius: 25px;
+    border:2px solid #ffffff;
+    
+}
+
+.mydiv:last-child{
+    margin-right: 0;
+}
+
+.mydiv img{
+    width: 90%;
+    height: 230px;
+    
+    border-radius: 20px;
+}
+.mydiv h3{
+    font-size: 15px;
+    color: #333;
+    padding:0 12px;
+    
+}
+.mydiv p{
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 300;
+    padding:0 12px;
+    
+}
+.mydiv span{
+    padding:25px 0;
+    font-size:26px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    color: orange;
+
+}
+.mydiv button{
+    width: 80%;
+    margin-left: 15px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+.mydiv button:hover{
+    background-color:transparent;
+    border: 2px solid black;
+    color: black;
+}
+
+.service{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+.service h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#service_part{
+    padding: 40px 0;
+    z-index: -5;
+    
+}
+.contact{
+    float: left;
+    width: 200px;
+}
+.contact img{
+    width: 100%;
+}
+.contactMe{
+    width: 45%;
+}
+.location_me{
+    width: 45%;
+    margin-top: 60px;
+    
+   
+}
+.two_colum_contact{
+    width: 1400px;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
